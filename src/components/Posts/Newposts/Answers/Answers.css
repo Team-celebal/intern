@@ -1,0 +1,8 @@
+.answers__pageButton {
+  margin-left: 300px !important;
+  background-color: #03a1fc !important;
+  margin-top: 10px !important;
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 100px !important;
+}

@@ -1,0 +1,40 @@
+.newsfeed__improve {
+  border: 1px solid lightgray;
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.newsfeed__improve > h2 {
+  border-bottom: 1px solid lightgrey;
+  background-color: #f0f3f5;
+  padding: 10px;
+}
+
+.newsfeed__improve > p {
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+
+  padding: 15px;
+}
+
+.newsfeed__improve :hover {
+  background-color: #f0f3f5;
+}
+
+#line {
+  text-decoration: line-through gray;
+}
+
+.newsfeed__spaces {
+  width: fit-content;
+}
+.newsfeed__spaces > h2 {
+  margin-left: 50px;
+  margin-top: 30px;
+  background-color: white;
+  padding: 15px;
+  border: 1px solid lightgray;
+}

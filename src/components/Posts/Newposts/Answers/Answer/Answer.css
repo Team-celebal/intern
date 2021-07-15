@@ -1,0 +1,46 @@
+.answers {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-top: 20px; 
+  width: 720px;
+  box-shadow: 1px 3px lightgray;
+}
+
+.answers__header {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.answers__header > h3 {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-left: 5px;
+  margin-top: -15px;
+}
+
+.answers__headerSecond {
+  margin-top: -15px;
+  margin-left: 55px;
+  font-weight: bolder;
+}
+
+.answers__body {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.answers__body > img {
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 400px;
+  width: 680px;
+}
+
+.answers__footer {
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}

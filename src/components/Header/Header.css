@@ -1,0 +1,48 @@
+.headerArea {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+}
+
+.headerArea__icons {
+}
+.headerArea h1 {
+  margin-left: 150px;
+  color: #c22b17;
+  font-weight: bold;
+}
+
+.headerArea__iconsRight {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+}
+.headerArea__Button {
+  background-color: #c22b17 !important;
+  border-radius: 20px !important;
+  color: white !important;
+  font-weight: 500 !important;
+  margin-left: 10px !important;
+}
+.languageIcon {
+  margin-left: 10px !important;
+}
+
+@media (max-width: 1190px) {
+  .headerArea h1 {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 880px) {
+  .headerArea__icons {
+    display: flex;
+  }
+
+  .headerArea__Button {
+    font-size: small !important;
+  }
+}

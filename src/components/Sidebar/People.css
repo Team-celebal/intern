@@ -1,0 +1,16 @@
+.people {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.people:hover {
+  background-color: lightgray;
+}
+
+.people > h3 {
+  font-weight: bold;
+  font-size: medium;
+}

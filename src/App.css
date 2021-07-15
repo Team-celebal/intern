@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #ebeced;
+}
+
+.app__header {
+  width: 100%;
+  position: fixed;
+  z-index: 100000;
+  box-sizing: border-box;
+  min-height: 50px;
+  top: 0;
+}
+.app__content {
+  margin-top: 70px;
+
+  display: flex;
+}

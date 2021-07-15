@@ -1,0 +1,23 @@
+.sidebar {
+  margin-top: 20px;
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+
+  margin-left: 100px;
+  width: fit-content;
+}
+
+.sidebar__button {
+  background-color: #e1e2e3 !important;
+}
+
+.sidebar__footer {
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray;
+  height: 70px;
+}
+
+.sidebar__footerButton {
+  background-color: #e1e2e3 !important;
+}

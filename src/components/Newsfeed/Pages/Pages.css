@@ -1,0 +1,22 @@
+.pages {
+  border: 1px solid lightgray;
+  border-top-width: 0px;
+  margin-left: 50px;
+  width: 250px;
+  padding: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.pages__header {
+  display: flex;
+  align-items: center;
+}
+
+.pages__header > h2 {
+  margin-left: 5px;
+}
+
+.pages > p {
+  padding-left: 30px;
+}
